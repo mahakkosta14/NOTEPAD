@@ -182,8 +182,20 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+body.dark,
+.container.dark,
+.sidebar.dark {
+  background-color: #1a1a1a;
+  color: #3F7D58;
+}
 
-/* Light/dark themes */
+body.light,
+.container.light,
+.sidebar.light {
+  background-color: #f0f0f0;
+  color: #222;
+}
+/* Light/dark themes 
 body.light {
   background: #f0f0f0;
   color: #222;
@@ -196,7 +208,7 @@ body.dark {
   background-color: #1a1a1a;
   border-color: white;
 
-}
+} */
 /* adding a side bar */
 /*
 .sidebar {
