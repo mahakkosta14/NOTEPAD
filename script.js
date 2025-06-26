@@ -158,20 +158,3 @@ function renderSidebar() {
     noteList.appendChild(li);
   });
 }
-
-
-window.onload = () => {
-  // existing code...
-  document.getElementById("title").value = localStorage.getItem("title") || "";
-  document.getElementById("text").value = localStorage.getItem("note") || "";
-  document.body.className = localStorage.getItem("theme") || "light";
-  document.getElementById("toggleMode").checked = document.body.className === "dark";
-
-  document.getElementById("toggleMode").addEventListener("change", function () {
-    const mode = this.checked ? "dark" : "light";
-    document.body.className = mode;
-    localStorage.setItem("theme", mode);
-  });
-
-  renderSidebar(); // Show notes on load
-};
