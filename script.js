@@ -47,6 +47,7 @@ function discardNote() {
   if (confirm("Are you sure you want to discard this note?")) {
     document.getElementById("title").value = "";
     document.getElementById("text").value = "";
+    /*
 
     // Remove specific note from saved list
     const title = localStorage.getItem("title");
@@ -61,7 +62,7 @@ function discardNote() {
     renderSidebar(); // Refresh sidebar list
   }
 }
-
+*/
 
 // Create a new note and clear storage
 function createNewNote() {
