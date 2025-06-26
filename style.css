@@ -32,7 +32,7 @@ h2{
     height: 80vh;
     width: 80vw;
     border: 0.3em solid black;
-    align-content: center;
+    align-content: left;
     margin-top: 2em;
     margin-left: 10vw;
     
@@ -189,6 +189,7 @@ h3{
 .content{
   display: flex;
   flex-direction: row;
+   width: 100vw;
 }
 
 /* for edit and dlt button in sidebar*/
