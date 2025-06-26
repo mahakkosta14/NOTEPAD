@@ -73,7 +73,7 @@ h2{
 
 input[type="text"],
 textarea {
-  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Responsively scales text */
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   padding: 0.5em 1em;
   width: 100%;
   box-sizing: border-box;
@@ -81,7 +81,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  font-size: inherit; /* Ensures placeholder scales with input */
+  font-size: inherit; 
 }
 
 
@@ -182,6 +182,7 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+/* light /dark theme */
 body.dark,
 .container.dark,
 .sidebar.dark {
@@ -195,33 +196,6 @@ body.light,
   background-color: #f0f0f0;
   color: #222;
 }
-/* Light/dark themes 
-body.light {
-  background: #f0f0f0;
-  color: #222;
-}
-body.dark {
-  background: #1a1a1a;
-  color: #3F7D58;
-}
-.container.dark {
-  background-color: #1a1a1a;
-  border-color: white;
-
-} */
-/* adding a side bar */
-/*
-.sidebar {
-  width: 200px;
-  float: left;
-  margin-top: 2em;
-  margin-left: 2em;
-  background-color: #c0b9b9;
-  padding: 10px;
-  border-radius: 8px;
-  max-height: 400px;
-  overflow-y: auto;
-} */
 .sidebar h3 {
   margin-top: 0;
 }
